@@ -15,11 +15,11 @@ const router = createBrowserRouter([
       {
         path: "clientes/nuevoCliente",
         element: <NewClient />,
-        loader: clientLoader
       },
       {
         path: "/",
         element: <Index />,
+        loader: clientLoader,
       },
     ],
   },
